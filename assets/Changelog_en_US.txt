@@ -1,4 +1,4 @@
-﻿ViPER4Android FX v2.3.4.0
+ViPER4Android FX v2.3.4.0
 Codename: Beautiful
 Copyright (C) 2006-2016 ViPER ACOUSTIC
 Forum: forum.vipersaudio.com
