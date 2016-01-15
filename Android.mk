@@ -29,6 +29,8 @@ include $(CLEAR_VARS)
 LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
     v4a_RootTools:libs/RootTools-4.2.jar \
     v4a_android-support:libs/android-support-v13.jar
+    
+LOCAL_JAVA_LIBRARIES += org.apache.http.legacy
 
 include $(BUILD_MULTI_PREBUILT)
 
