@@ -9,6 +9,8 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
+LOCAL_JAVA_LIBRARIES += org.apache.http.legacy
+
 #LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/res
 LOCAL_AAPT_FLAGS := --auto-add-overlay
 
@@ -30,7 +32,6 @@ LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
     v4a_RootTools:libs/RootTools-4.2.jar \
     v4a_android-support:libs/android-support-v13.jar
     
-LOCAL_JAVA_LIBRARIES += org.apache.http.legacy
 
 include $(BUILD_MULTI_PREBUILT)
 
